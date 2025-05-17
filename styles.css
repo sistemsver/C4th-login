@@ -3,41 +3,37 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
 }
 
 .login-container {
     text-align: center;
     background: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
 }
 
 .icon {
-    width: 100px;
+    width: 150px;
     margin-bottom: 20px;
 }
 
-input {
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    background-color: #007BFF;
+.login-button {
+    background-color: #0078d4;
     color: white;
-    border: none;
     padding: 10px 20px;
-    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
 }
 
-button:hover {
-    background-color: #0056b3;
+.login-button:hover {
+    background-color: #005a9e;
 }
