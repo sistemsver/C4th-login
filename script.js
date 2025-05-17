@@ -1,11 +1,7 @@
-document.getElementById('loginButton').addEventListener('click', function() {
-    const loginId = document.getElementById('loginId').value;
-    const password = document.getElementById('password').value;
+document.getElementById("userLoginButton").addEventListener("click", function() {
+    window.location.href = "user_login.html";  // 通常ログイン画面へのリンク
+});
 
-    if (loginId && password) {
-        // 特定のURLに遷移
-        window.location.href = 'https://www.c-sqr.net/home';
-    } else {
-        alert('ログインIDとパスワードを入力してください。');
-    }
+document.getElementById("adminLoginButton").addEventListener("click", function() {
+    window.location.href = "admin_login.html";  // 管理者ログイン画面へのリンク
 });
